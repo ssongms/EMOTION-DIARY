@@ -31,6 +31,7 @@ const mockData = [
 function reducer(state, action) {
   return state;
 }
+
 function App() {
   const [data, dispatch] = useReducer(reducer, mockData);
   return (
@@ -55,9 +56,8 @@ function App() {
         <Route
           path="*"
           element={<NotFound />}
-        />\
-
-        
+        />
+        \
       </Routes>
     </>
   );
