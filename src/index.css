@@ -7,6 +7,7 @@
   font-family: Pretendard;
   src: url(/public/Pretendard-Regular.ttf);
 }
+
 html,
 body {
   margin: 0px;
@@ -26,5 +27,5 @@ body {
 }
 
 body * {
-  font-family: Pretendard;
+  font-family: NanumSquare;
 }

@@ -21,7 +21,7 @@ const GlobalButton = styled.button`
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 18px;
-  white-space: nowrap;
+  white-space: nowrap; // 창의 사이즈가 작아져도 버튼 내의 content가 줄바꿈 되지 않음
 
   ${({ type }) => {
     if (type === "POSITIVE") {
