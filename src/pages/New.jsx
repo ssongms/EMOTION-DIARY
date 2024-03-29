@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 const New = () => {
   const navigate = useNavigate();
   const { onCreate } = useContext(DiaryDispatchContext);
+
   const onSubmit = (input) => {
     onCreate(input.createdDate.getTime(), input.emotionId, input.content);
     navigate("/", { replace: true });
